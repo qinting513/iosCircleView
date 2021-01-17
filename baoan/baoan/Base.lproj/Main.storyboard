@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DF4-PH-BW0">
+                                <rect key="frame" x="0.0" y="144" width="414" height="414"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr0" translatesAutoresizingMaskIntoConstraints="NO" id="kF5-Gi-RQC">
+                                        <rect key="frame" x="183.5" y="90.5" width="47" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="47" id="K8S-rd-Zpu"/>
+                                            <constraint firstAttribute="height" constant="97" id="Phx-NT-hRL"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr1" translatesAutoresizingMaskIntoConstraints="NO" id="EFP-ad-9ba">
+                                        <rect key="frame" x="119.5" y="75.5" width="52" height="68"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="kXP-1J-N5o"/>
+                                            <constraint firstAttribute="width" constant="52" id="ylx-IV-PP2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr_ren" translatesAutoresizingMaskIntoConstraints="NO" id="N6Q-iD-WWN">
+                                        <rect key="frame" x="84.5" y="217.5" width="245" height="196.5"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr3" translatesAutoresizingMaskIntoConstraints="NO" id="msY-UF-Kvb">
+                                        <rect key="frame" x="80" y="217.5" width="75" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="8eC-ix-vMM"/>
+                                            <constraint firstAttribute="height" constant="42" id="H1u-lP-Eoj"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr4" translatesAutoresizingMaskIntoConstraints="NO" id="9n8-V9-CWc">
+                                        <rect key="frame" x="36" y="162.5" width="80" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="AK8-56-eTQ"/>
+                                            <constraint firstAttribute="height" constant="45" id="g4H-D5-cuk"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr2" translatesAutoresizingMaskIntoConstraints="NO" id="xXh-o2-nnZ">
+                                        <rect key="frame" x="116" y="155.5" width="70" height="54"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="SoM-Xq-gdL"/>
+                                            <constraint firstAttribute="width" constant="70" id="xZI-Rx-DbN"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr5" translatesAutoresizingMaskIntoConstraints="NO" id="mct-vY-odL">
+                                        <rect key="frame" x="242.5" y="75.5" width="52" height="68"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="52" id="2JZ-So-8yQ"/>
+                                            <constraint firstAttribute="height" constant="68" id="302-CE-XrT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr6" translatesAutoresizingMaskIntoConstraints="NO" id="oan-5J-G9n">
+                                        <rect key="frame" x="228" y="155.5" width="70" height="54"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="7wq-vG-C9Z"/>
+                                            <constraint firstAttribute="width" constant="70" id="K2y-ol-iET"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr8" translatesAutoresizingMaskIntoConstraints="NO" id="hL9-VJ-1KH">
+                                        <rect key="frame" x="259" y="217.5" width="75" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="9ia-yF-jwf"/>
+                                            <constraint firstAttribute="width" constant="75" id="DWQ-1K-C8Y"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_gr7" translatesAutoresizingMaskIntoConstraints="NO" id="kqd-lc-mcb">
+                                        <rect key="frame" x="298" y="162.5" width="80" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="R08-UC-SAo"/>
+                                            <constraint firstAttribute="width" constant="80" id="wIP-i2-pts"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXp-Cw-Jem">
+                                        <rect key="frame" x="182" y="91" width="52" height="97"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <inset key="contentEdgeInsets" minX="-20" minY="36" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="34" minY="-60" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="出生" image="icon_b0"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9n8-V9-CWc" firstAttribute="leading" secondItem="DF4-PH-BW0" secondAttribute="leading" constant="36" id="3N8-uC-eDr"/>
+                                    <constraint firstItem="kqd-lc-mcb" firstAttribute="leading" secondItem="oan-5J-G9n" secondAttribute="trailing" id="6y0-kr-GcG"/>
+                                    <constraint firstAttribute="trailing" secondItem="hL9-VJ-1KH" secondAttribute="trailing" constant="80" id="Gwo-BW-LxB"/>
+                                    <constraint firstItem="hL9-VJ-1KH" firstAttribute="top" secondItem="oan-5J-G9n" secondAttribute="bottom" constant="8" id="Khh-2W-RRq"/>
+                                    <constraint firstItem="hL9-VJ-1KH" firstAttribute="top" secondItem="kqd-lc-mcb" secondAttribute="bottom" constant="10" id="NpE-4u-Tqx"/>
+                                    <constraint firstAttribute="trailing" secondItem="kqd-lc-mcb" secondAttribute="trailing" constant="36" id="PAG-ED-tVR"/>
+                                    <constraint firstItem="xXh-o2-nnZ" firstAttribute="top" secondItem="EFP-ad-9ba" secondAttribute="bottom" constant="12" id="Ru1-xO-WaX"/>
+                                    <constraint firstItem="N6Q-iD-WWN" firstAttribute="top" secondItem="kF5-Gi-RQC" secondAttribute="bottom" constant="30" id="WMe-sG-Tq3"/>
+                                    <constraint firstItem="kF5-Gi-RQC" firstAttribute="leading" secondItem="EFP-ad-9ba" secondAttribute="trailing" constant="12" id="aPN-cT-avo"/>
+                                    <constraint firstItem="msY-UF-Kvb" firstAttribute="top" secondItem="N6Q-iD-WWN" secondAttribute="top" id="e7z-AV-Dfg"/>
+                                    <constraint firstItem="EFP-ad-9ba" firstAttribute="height" secondItem="mct-vY-odL" secondAttribute="height" id="eHP-t0-yWx"/>
+                                    <constraint firstAttribute="width" secondItem="DF4-PH-BW0" secondAttribute="height" multiplier="1:1" id="iwi-Yd-WVy"/>
+                                    <constraint firstItem="xXh-o2-nnZ" firstAttribute="leading" secondItem="9n8-V9-CWc" secondAttribute="trailing" id="j6X-4X-j14"/>
+                                    <constraint firstItem="mct-vY-odL" firstAttribute="leading" secondItem="kF5-Gi-RQC" secondAttribute="trailing" constant="12" id="mYc-Ir-Qek"/>
+                                    <constraint firstItem="kF5-Gi-RQC" firstAttribute="centerX" secondItem="DF4-PH-BW0" secondAttribute="centerX" id="oah-TC-eBC"/>
+                                    <constraint firstItem="msY-UF-Kvb" firstAttribute="top" secondItem="9n8-V9-CWc" secondAttribute="bottom" constant="10" id="oun-VD-8FE"/>
+                                    <constraint firstItem="msY-UF-Kvb" firstAttribute="top" secondItem="xXh-o2-nnZ" secondAttribute="bottom" constant="8" id="qbQ-lH-bCt"/>
+                                    <constraint firstItem="oan-5J-G9n" firstAttribute="top" secondItem="mct-vY-odL" secondAttribute="bottom" constant="12" id="rdI-VK-t9e"/>
+                                    <constraint firstAttribute="bottom" secondItem="N6Q-iD-WWN" secondAttribute="bottom" id="sb4-T1-Ga5"/>
+                                    <constraint firstItem="msY-UF-Kvb" firstAttribute="leading" secondItem="DF4-PH-BW0" secondAttribute="leading" constant="80" id="t5e-ho-crx"/>
+                                    <constraint firstItem="hL9-VJ-1KH" firstAttribute="top" secondItem="N6Q-iD-WWN" secondAttribute="top" id="tpW-gf-Bva"/>
+                                    <constraint firstItem="N6Q-iD-WWN" firstAttribute="centerX" secondItem="DF4-PH-BW0" secondAttribute="centerX" id="yxi-NU-6Hj"/>
+                                    <constraint firstItem="EFP-ad-9ba" firstAttribute="width" secondItem="mct-vY-odL" secondAttribute="width" id="zYY-2I-5tS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DF4-PH-BW0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="APl-cs-fWg"/>
+                            <constraint firstItem="DF4-PH-BW0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="G2l-om-p47"/>
+                            <constraint firstItem="DF4-PH-BW0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="uQA-qL-Qfh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="48.883928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_b0" width="23" height="27"/>
+        <image name="icon_gr0" width="47" height="97"/>
+        <image name="icon_gr1" width="52" height="67.666664123535156"/>
+        <image name="icon_gr2" width="70" height="56.666667938232422"/>
+        <image name="icon_gr3" width="75" height="42"/>
+        <image name="icon_gr4" width="72.666664123535156" height="44"/>
+        <image name="icon_gr5" width="51.666667938232422" height="67.333335876464844"/>
+        <image name="icon_gr6" width="69" height="53"/>
+        <image name="icon_gr7" width="80" height="44.666667938232422"/>
+        <image name="icon_gr8" width="75" height="42"/>
+        <image name="icon_gr_ren" width="245" height="196.66667175292969"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
